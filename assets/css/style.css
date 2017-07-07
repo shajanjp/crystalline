@@ -4,7 +4,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 #quick-contact{
   background-color: #ededed;
   margin-top: 15px;
@@ -113,17 +112,13 @@
 }
 
 section{
-margin-top: 30px;
+  margin-top: 30px;
 }
 
 #recent-events .image:hover{
   -webkit-transition-duration: 1s; /* Safari */
   transition-duration: 1s;
 
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  
-  -ms-transform: rotate(7deg); /* IE 9 */
-  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-  transform: rotate(7deg);
+  -webkit-filter: blur(2px) grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: blur(2px) grayscale(100%);
 }
